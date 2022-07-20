@@ -1,7 +1,7 @@
 const ytdl = require('..');
 const assert = require('assert-diff');
 const nock = require('./nock');
-const miniget = require('miniget');
+const miniget = require('@luminati-io/miniget');
 const net = require('net');
 
 

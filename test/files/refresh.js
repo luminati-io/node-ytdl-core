@@ -132,7 +132,7 @@ const fs = require('fs');
 const path = require('path');
 const { PassThrough } = require('stream');
 const mukRequire = require('muk-require');
-const miniget = require('miniget');
+const miniget = require('@luminati-io/miniget');
 
 
 // Don't check for update, otherwise, it'll get saved as part of a video request.

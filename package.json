@@ -1,12 +1,12 @@
 {
-  "name": "ytdl-core",
+  "name": "@luminati-io/ytdl-core",
   "description": "YouTube video downloader in pure javascript.",
   "keywords": [
     "youtube",
     "video",
     "download"
   ],
-  "version": "0.0.0-development",
+  "version": "4.11.0-lum.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/fent/node-ytdl-core.git"
@@ -37,8 +37,8 @@
     "lint:typings:fix": "tslint --fix typings/index.d.ts"
   },
   "dependencies": {
+    "@luminati-io/miniget": "4.2.2-lum.1",
     "m3u8stream": "^0.8.6",
-    "miniget": "^4.2.2",
     "sax": "^1.1.3"
   },
   "devDependencies": {
@@ -57,5 +57,14 @@
   "engines": {
     "node": ">=12"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fent/node-ytdl-core/issues"
+  },
+  "homepage": "https://github.com/fent/node-ytdl-core#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  }
 }

@@ -1,7 +1,7 @@
 const ytdl = require('..');
 const assert = require('assert-diff');
 const nock = require('./nock');
-const miniget = require('miniget');
+const miniget = require('@luminati-io/miniget');
 
 const DEFAULT_USER_AGENT =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Safari/537.36';
